@@ -1,0 +1,48 @@
+$primary: #112799;
+$secondary: #fda029;
+$success: #4bb543;
+$danger: #f32013;
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+/* For WebKit browsers like Chrome and Safari */
+body::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Edge, Opera */
+}
+
+.fullscreen-image {
+  background: url("../../assets/truckBackground.jpg") no-repeat center
+    center/cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px;
+}
+
+.text-content {
+  max-width: 50%;
+  color: white;
+}
+
+.white-body {
+  background-color: white;
+  padding: 20px;
+}
+
+.navbar {
+  position: fixed;
+  top: 2rem;
+  width: 100%;
+  z-index: 1000; /* Ensure it overlaps other elements */
+}
