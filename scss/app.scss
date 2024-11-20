@@ -3,7 +3,7 @@ $secondary: #fda029;
 $success: #4bb543;
 $danger: #f32013;
 
-@import "../../node_modules/bootstrap/scss/bootstrap";
+@import "../node_modules/bootstrap/scss/bootstrap";
 
 body,
 html {
@@ -21,8 +21,7 @@ body::-webkit-scrollbar {
 }
 
 .fullscreen-image {
-  background: url("../../assets/truckBackground.jpg") no-repeat center
-    center/cover;
+  background: url("../assets/truckBackground.jpg") no-repeat center center/cover;
   height: 100vh;
   display: flex;
   align-items: center;
