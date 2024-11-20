@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "sass": "sass --watch --quiet ./src/scss/app.scss ./src/css/app.css"
+    "sass": "sass --watch --quiet ./scss/app.scss ./css/app.css"
   },
   "dependencies": {
     "bootstrap": "^5.3.3",

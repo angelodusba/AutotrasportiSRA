@@ -11860,7 +11860,7 @@ body::-webkit-scrollbar {
 }
 
 .fullscreen-image {
-  background: url("../../assets/truckBackground.jpg") no-repeat center center/cover;
+  background: url("../assets/truckBackground.jpg") no-repeat center center/cover;
   height: 100vh;
   display: flex;
   align-items: center;
